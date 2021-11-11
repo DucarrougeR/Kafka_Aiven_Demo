@@ -1,0 +1,23 @@
+Product Requirements Document (PRD)
+
+Objectives for the product
+As part of the demo application you must be able to send events to a Kafka topic (a producer) which will then be read
+by a Kafka consumer application that you've written.
+The consumer application must then store the consumed data to an Aiven PostgreSQL database.
+
+
+REQUIREMENTS:
+
+[x] Kafka Producer sending events to a topic
+[x] Kafka Consumer reading the topic's events
+[x] Kafka Consumer needs to store data into PostgreSQL db 
+[x] Application interacts with AIVEN
+[x] Code is formatted as package
+[x] Code is documented
+[x] Code includes testing of functionalities
+[x] Code includes a README with running instructions 
+[x] Code includes a README with testing instructions 
+[x] External references used are cited
+[x] Code is submitted via Github
+[ ] Link to submission repo to be shared back via email too
+
